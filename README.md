@@ -13,6 +13,13 @@ MediaPipeによる特徴点抽出 → RandomForestによる学習 → Streamlit�
 
 ---
 
+
+### 📅 制作期間  
+2025年11月〜12月（約2〜3週間）  
+（データ撮影・特徴点抽出・学習モデル構築・Webアプリ化まで）
+
+---
+
 ## 🧠 使用技術
 - Python 3.x  
 - MediaPipe Hands  

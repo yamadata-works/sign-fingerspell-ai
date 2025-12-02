@@ -48,7 +48,7 @@ sign-fingerspell-ai/
 ![アプリ画面](images/アプリ画面.png)
 
 ### 📌 画像アップロード画面
-![画像](images/スクリーンショット.png)
+![画像](images/スクリーンショット .png)
 
 ### 📌 判定結果
 ![判定結果](images/成果の画像.png)

@@ -39,8 +39,8 @@ sign-fingerspell-ai/
 │   └── landmarks_extract.py   # MediaPipe でランドマーク抽出
 │
 ├── notebooks/
-│   ├── 01_landmark_extraction.ipynb   # 特徴点抽出処理
-│   └── 02_training_model.ipynb        # モデル学習
+│   ├── 01_landmark_extraction.ipynb   # 特徴点抽出・モデル学習・保存
+│   └── 02_build_streamlit_app.ipynb   # Streamlitアプリの作成
 │
 ├── data/ （必要に応じて公開しない）
 ├── requirements.txt

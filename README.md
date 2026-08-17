@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ### 2. アプリを起動
 ```
-streamlit run app/app.py
+streamlit run sign_app/app.py
 ```
 
 ### 3. ブラウザで確認
@@ -91,11 +91,11 @@ MediaPipe Hands の 21点 × (x, y, z) の座標を使用。
 ---
 
 ## 📊 モデル精度
-（例、後で差し替え可能）
 
-- Accuracy：92.3% 
-- Confusion Matrix：あり  
-- 指文字のランドマークにばらつきがある場合は misclassification あり
+- Accuracy：0.844（テストデータ32枚・1回の実行結果）
+- 学習データ：157枚（あ26／い34／う32／え32／お33）
+- RandomForestClassifier（n_estimators=500）、8:2で分割
+- 「え」「お」は手の形状が似ており、誤判定が残る
 
 ---
 
@@ -120,9 +120,9 @@ MediaPipe Hands の 21点 × (x, y, z) の座標を使用。
 ---
 
 ## 👤 制作者
-**山田真一郎（やま）**  
-Python / データサイエンス / 画像認識を学習中  
-Webアプリや機械学習モデルの開発経験あり
+**山田真一郎（やま）**
+Python / データ分析 / 画像認識
+学習の一環として、Webアプリと機械学習モデルを制作
 
 ---
 
